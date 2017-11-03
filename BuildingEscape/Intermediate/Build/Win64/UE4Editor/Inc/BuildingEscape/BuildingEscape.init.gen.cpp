@@ -20,7 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeBuildingEscape_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/BuildingEscape")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x2F344CD4;
+			Guid.A = 0x06571DDE;
 			Guid.B = 0xEEE69D44;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
