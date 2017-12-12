@@ -5,6 +5,7 @@
 #include "Engine/TriggerVolume.h"
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Components/PrimitiveComponent.h"
 #include "OpenDoor.generated.h"
 
 
@@ -45,7 +46,8 @@ private:
 
 	AActor* Owner;
 
-	AActor* ActorThatOpens; // remember pawn inherits from Actor
+	// returns total mass in kg
+	float GetTotalMassOfActorsOnPlate();
 
 	
 };
