@@ -12,6 +12,7 @@ PRAGMA_DISABLE_OPTIMIZATION
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeBuildingEscape_init() {}
+	BUILDINGESCAPE_API UFunction* Z_Construct_UDelegateFunction_BuildingEscape_DoorEvent__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_BuildingEscape()
 	{
 		static UPackage* ReturnPackage = nullptr;
@@ -20,12 +21,13 @@ void EmptyLinkFunctionForGeneratedCodeBuildingEscape_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/BuildingEscape")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xC0A47D8F;
-			Guid.B = 0x596D1274;
+			Guid.A = 0xB5FFBC65;
+			Guid.B = 0x5B061B69;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
 
+			Z_Construct_UDelegateFunction_BuildingEscape_DoorEvent__DelegateSignature();
 		}
 		return ReturnPackage;
 	}
